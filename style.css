@@ -1,0 +1,93 @@
+.container{
+  text-align: center;
+  width: 500px;
+  height: 440px;
+  border: 1px solid #f92707;
+  border-radius: 50%;
+  padding: 10px;
+  //background-color: #f4c3c3;
+  box-shadow: inset -25px -25px 40px #FF6347;
+  //box-shadow: inset 0 0 80px #FFF;
+//background-image: -webkit-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+ //background-image: -moz-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);  
+ // background-image: -o-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+//background-image: -ms-linear-gradient(-45deg, rgba(255,255,220,.3) 0%, transparent 100%);
+
+  background: radial-gradient(circle at 100px 100px, #f4c3c3,#FF6347);
+  
+  //background-color: #FF6347;
+  //font-family: Impact, Charcoal, sans-serif;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#leaf{
+  color: green;
+  font-size: 40px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  color: #032d11;
+  font-weight: bolder;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+#sessionClockSet{
+  font-size: 20px;
+  font-weight: bold;
+  //padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #f92707; 
+}
+
+#restClockSet{
+  font-size: 20px;
+  font-weight: bold;
+  //padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #121499;
+}
+
+#mainClockRow{
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  height: 200;
+  width: 280;
+}
+
+.backTomatoImg{
+    background-image: url("https://static.pexels.com/photos/5617/red-tomato-vegetable.jpg");
+    background-size: contain;
+  width: 280px;
+  height: 100px;
+}
+
+#tomato{
+  margin: auto;
+  border-radius: 50px;
+  background-image: url("https://static.pexels.com/photos/5617/red-tomato-vegetable.jpg");
+    background-size: contain;
+  width: 280px;
+  height: 100px;
+
+}
+
+#clockMessage{
+  font-size: 14px;
+  font-weight: normal;
+}
+
+#rest{
+  color: #121499;
+}
+
+#session{
+  color: #f92707;
+}
+
